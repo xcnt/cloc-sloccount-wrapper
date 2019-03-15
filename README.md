@@ -7,7 +7,7 @@ There does exist a docker container on [Docker Hub](https://cloud.docker.com/u/x
 
 Execution:
 ```
-docker run -v $(pwd):/data xcnt/cloc-sloccount-wrapper:latest --exclude-d vendor .
+docker run -v $(pwd):/data xcnt/cloc-sloccount-wrapper:stable --exclude-d vendor .
 ```
 This will execute the cloc script with the passed parameters and output a "cloc.xml" and a sloccount compatible "sloccount.sc" in the current working directory.
 
